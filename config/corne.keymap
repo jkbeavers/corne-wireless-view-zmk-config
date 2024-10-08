@@ -4,6 +4,9 @@
 #include <dt-bindings/zmk/mouse.h>
 
 / {
+    &mt {
+        flavor = "balanced";
+    };
     keymap {
         compatible = "zmk,keymap";
 
