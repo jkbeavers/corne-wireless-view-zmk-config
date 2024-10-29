@@ -23,11 +23,10 @@
 
         base {
             bindings = <
-&kp C_VOL_UP           AS(Q)  AS(W)  AS(E)   AS(R)   AS(T)      AS(Y)    AS(U)   AS(I)      AS(O)    AS(P)     &kp BACKSPACE
-&kp C_VOL_DN           AS(A)  AS(S)  AS(D)   AS(F)   AS(G)      AS(H)    AS(J)   AS(K)      AS(L)    AS(SEMI)  AS(SQT)
-&kp C_PLAY_PAUSE       AS(Z)  AS(X)  AS(C)   AS(V)   AS(B)      AS(N)    AS(M)   AS(COMMA)  AS(DOT)  AS(FSLH)  &kp LALT
-
-                                           &mt LEFT_SHIFT TAB  &mt LCTRL SPACE  &lt 2 ENTER    &mt LEFT_SHIFT ESC  &lt 1 SPACE  &lt 3 TAB
+&kp C_VOL_UP           AS(Q)  AS(W)  AS(E)   AS(R)   AS(T)                  AS(Y)    AS(U)   AS(I)      AS(O)    AS(P)     &kp BACKSPACE
+&kp C_VOL_DN           AS(A)  AS(S)  AS(D)   AS(F)   AS(G)                  AS(H)    AS(J)   AS(K)      AS(L)    AS(SEMI)  AS(SQT)
+&kp C_PLAY_PAUSE       AS(Z)  AS(X)  AS(C)   AS(V)   AS(B)                  AS(N)    AS(M)   AS(COMMA)  AS(DOT)  AS(FSLH)  &kp LALT
+                        &mt LEFT_SHIFT TAB  &mt LCTRL SPACE  &lt 2 ENTER    &mt LEFT_SHIFT ESC  &lt 1 SPACE  &lt 3 TAB
             >;
         };
 
@@ -36,7 +35,7 @@
 &kp LEFT_WIN      AS(N1)         AS(N2)         AS(N3)              AS(N4)        AS(N5)                      AS(N6)                     AS(N7)                 AS(N8)               AS(N9)                AS(N0)        &kp ESC
 &kp LCTRL     &kp UNDER      &kp MINUS      &kp LEFT_BRACE      &kp LBKT      &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS      &kp RBKT               &kp RIGHT_BRACE      &kp EQUAL             &kp PLUS          &kp DOLLAR
 &trans        &kp TILDE      &trans         &kp PIPE            &kp SQT       &kp GRAVE                   &kp BSLH                   &kp DOUBLE_QUOTES      &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION      &trans
-                                    &caps_word         &trans    &kp BACKSPACE                  &trans                 &trans             &trans
+                                    &caps_word         &trans    &kp BACKSPACE                            &trans                 &trans             &trans
             >;
         };
 
@@ -51,10 +50,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &kp LALT(TAB) &kp LALT(LS(TAB))    &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
-&trans  &trans  &trans  &trans  &kp LC(TAB)   &kp LC(LS(TAB))      &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
-                        &trans  &trans  &kp ENTER    &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans      &trans              &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
+&trans  &trans  &trans  &trans  &kp LA(TAB) &kp LA(LS(TAB))     &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &kp LC(TAB) &kp LC(LS(TAB))     &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
+                        &trans  &trans      &kp ENTER           &trans     &trans    &trans
             >;
         };
 
