@@ -50,8 +50,8 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans      &trans              &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
-&trans  &trans  &trans  &trans  &kp LA(TAB) &kp LA(LS(TAB))     &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans      &trans              &trans     &trans    &trans   &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &kp LA(TAB) &kp LA(LS(TAB))     &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
 &trans  &trans  &trans  &trans  &kp LC(TAB) &kp LC(LS(TAB))     &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
                         &trans  &trans      &kp ENTER           &trans     &trans    &trans
             >;
