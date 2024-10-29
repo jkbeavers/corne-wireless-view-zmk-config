@@ -35,7 +35,7 @@
 &kp LEFT_WIN  &kp AS(N1)     &kp AS(N2)     &kp AS(N3)          &kp AS(N4)    &kp AS(N5)                  &kp AS(N6)                 &kp AS(N7)             &kp AS(N8)           &kp AS(N9)            &kp AS(N0)        &kp ESC
 &kp LCTRL     &kp UNDER      &kp MINUS      &kp LEFT_BRACE      &kp LBKT      &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS      &kp RBKT               &kp RIGHT_BRACE      &kp EQUAL             &kp PLUS          &kp DOLLAR
 &trans        &kp TILDE      &trans         &kp PIPE            &kp SQT       &kp GRAVE                   &kp BSLH                   &kp DOUBLE_QUOTES      &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION      &trans
-                                    &caps_words         &trans    &kp BACKSPACE                  &trans                 &trans             &trans
+                                    &caps_word         &trans    &kp BACKSPACE                  &trans                 &trans             &trans
             >;
         };
 
@@ -51,8 +51,8 @@
         nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP  &trans    &kp ESC  &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &kp LALT(TAB) &kp LALT(LS(TAB))    &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
+&trans  &trans  &trans  &trans  &kp LC(TAB)   &kp LC(LS(TAB))      &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
                         &trans  &trans  &kp ENTER    &trans     &trans    &trans
             >;
         };
