@@ -25,7 +25,7 @@
             bindings = <
 &kp C_VOL_UP                 &kp AS(Q)  &kp AS(W)  &kp AS(E)               &kp AS(R)            &kp AS(T)          &kp AS(Y)    &kp AS(U)        &kp AS(I)      &kp AS(O)    &kp AS(P)     &kp BACKSPACE
 &kp C_VOL_DN                 &kp AS(A)  &kp AS(S)  &kp AS(D)               &kp AS(F)            &kp AS(G)          &kp AS(H)    &kp AS(J)        &kp AS(K)      &kp AS(L)    &kp AS(SEMI)  &kp AS(SQT)
-&mt C_PLAY_PAUSE             &kp AS(Z)  &kp AS(X)  &kp AS(C)               &kp AS(V)            &kp AS(B)          &kp AS(N)    &kp AS(M)        &kp AS(COMMA)  &kp AS(DOT)  &kp AS(FSLH)  &kp LALT
+&kp C_PLAY_PAUSE             &kp AS(Z)  &kp AS(X)  &kp AS(C)               &kp AS(V)            &kp AS(B)          &kp AS(N)    &kp AS(M)        &kp AS(COMMA)  &kp AS(DOT)  &kp AS(FSLH)  &kp LALT
                                            &mt LEFT_SHIFT TAB  &mt LCTRL SPACE  &lt 2 ENTER    &mt LEFT_SHIFT ESC  &lt 1 SPACE  &lt 3 TAB
             >;
         };
@@ -50,8 +50,8 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp PG_UP  &trans    &kp ESC  &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
+&trans  &trans  &trans  &trans  &kp LALT(TAB) &kp LALT(LS(TAB))    &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &kp BSPC  &trans
+&trans  &trans  &trans  &trans  &kp LC(TAB)   &kp LC(LS(TAB))      &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp PG_DN  &kp LALT  &trans   &trans     &trans    &trans
                         &trans  &trans  &kp ENTER    &trans     &trans    &trans
             >;
