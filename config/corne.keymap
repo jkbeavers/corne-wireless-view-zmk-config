@@ -9,7 +9,7 @@
 };
 / {
      macros {
-        hold_tab : hold_tab {
+        hold_tab: hold_tab {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings
