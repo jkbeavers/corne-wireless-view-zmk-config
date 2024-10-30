@@ -54,13 +54,13 @@
         td_sl2_en: tap_dance_sl2_enter {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <90>;
+            tapping-term-ms = <120>;
             bindings = <&sl 2>, <&kp ENTER>;
         };
         td_sks_tab: tap_dance_skshift_tab {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <90>;
+            tapping-term-ms = <120>;
             bindings = <&skq LSHIFT>, <&kp TAB>;
         };
     };
