@@ -54,14 +54,20 @@
         td_sl2_en: tap_dance_sl2_enter {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             bindings = <&sl 2>, <&kp ENTER>;
         };
         td_sks_tab: tap_dance_skshift_tab {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             bindings = <&skq LSHIFT>, <&kp TAB>;
+        };
+        td_sks_esc: tap_dance_skshift_tab {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&skq LSHIFT>, <&kp ESC>;
         };
     };
     keymap {
