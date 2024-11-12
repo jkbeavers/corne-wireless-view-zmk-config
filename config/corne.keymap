@@ -7,6 +7,9 @@
 &mt {
     flavor = "balanced";
 };
+&sl {
+    release-after-ms = <300>;
+};
 &caps_word {
     continue-list = <UNDERSCORE MINUS BACKSPACE K_CANCEL>;
 };
