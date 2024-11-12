@@ -5,7 +5,7 @@
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 &mt {
-    flavor = "balanced";
+    flavor = "tap-preferred";
 };
 &sl {
     release-after-ms = <300>;
