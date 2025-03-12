@@ -29,7 +29,7 @@
                 , <&macro_release &kp MACRO_PLACEHOLDER>
                 ;
         };
-        caps_cancel: caps_cancel {
+        caps_toggle: caps_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -91,7 +91,7 @@
 &none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
 &trans     &kp DOT      &kp MINUS      &kp PLUS       &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp COMMA             &kp BSPC               &kp EQUAL
 &none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp FSLH      &kp LBRC                     &kp RBRC                   &kp BSLH               &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION           &none
-                             &caps_cancel     &kp ENTER         &kp ESC                                 &trans                 &trans             &trans
+                             &trans     &kp ENTER         &kp ESC                                 &caps_toggle                 &trans             &trans
             >;
         };
 
