@@ -88,9 +88,9 @@
 
         syms {
             bindings = <
-&kp AMPERSAND     AS(N1)         AS(N2)         AS(N3)              AS(N4)        AS(N5)                      AS(N6)                     AS(N7)                 AS(N8)               AS(N9)                AS(N0)        &kp PERCENT
-&kp CARET     &kp UNDER      &kp MINUS      &kp LEFT_BRACE      &kp LBKT      &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS      &kp RBKT               &kp RIGHT_BRACE      &kp EQUAL             &kp PLUS          &kp DOLLAR
-&kp ASTRK     &kp TILDE      &kp PIPE         &kp AT            &kp SQT       &kp GRAVE                   &kp BSLH                   &kp DOUBLE_QUOTES      &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION      &trans
+&trans     &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans     &kp DOT      &kp MINUS      &kp PLUS       &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp EQUAL             &kp BPSC               &trans
+&trans     &kp TILDE    &kp PIPE       &kp GRAVE      &kp FSLH      &kp LBRC                     &kp RBRC                   &kp BSLH               &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION           &trans
                              &caps_cancel     &kp ENTER         &kp ESC                                 &trans                 &trans             &trans
             >;
         };
