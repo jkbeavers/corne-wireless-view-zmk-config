@@ -89,7 +89,7 @@
         syms {
             bindings = <
 &trans     &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans     &kp DOT      &kp MINUS      &kp PLUS       &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp EQUAL             &kp BPSC               &trans
+&trans     &kp DOT      &kp MINUS      &kp PLUS       &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp COMMA             &kp BSPC               &kp EQUAL
 &trans     &kp TILDE    &kp PIPE       &kp GRAVE      &kp FSLH      &kp LBRC                     &kp RBRC                   &kp BSLH               &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION           &trans
                              &caps_cancel     &kp ENTER         &kp ESC                                 &trans                 &trans             &trans
             >;
