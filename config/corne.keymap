@@ -7,6 +7,7 @@
 #define SYM   1
 #define NUM   2
 #define NAV   3
+#define OVR   4
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 &mt {
@@ -104,7 +105,7 @@
 &kp C_VOL_UP      &kp EXCL  &kp AT  &kp HASH    &kp DOLLAR   &kp PERCENT       &kp CARET      &kp AMPERSAND  &kp ASTRK  &trans  &trans  &none
 &kp C_VOL_DN      &kp N1    &kp N2  &kp N3      &kp N4       &kp N5            &kp N6         &kp N7         &kp N8     &kp N9  &kp N0  &trans
 &kp C_PLAY_PAUSE  &trans    &trans  &trans      &trans       &trans            &trans         &trans         &trans     &trans  &trans  &none
-                                 &trans  &trans       &trans            &trans         &lt SYM SPACE         &trans
+                                 &trans  &trans       &trans            &trans         &lt OVR SPACE         &trans
             >;
         };
 
@@ -115,6 +116,14 @@
 &kp C_PLAY_PAUSE  &trans          &trans        &trans          &hold_tab LCTRL  &hold_tab LALT     &kp PG_DN  &kp PG_UP  &trans  &bt BT_PRV  &bt BT_NXT  &none
                         &trans        &trans          &trans                              &trans     &trans    &trans
             >;  
+        };
+        override {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans          &trans  &trans  &trans  &trans  &kp BSPC  &trans
+&trans  &trans  &trans  &trans  &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans     &trans          &trans  &trans  &trans
+            >;
         };
     };
 };
