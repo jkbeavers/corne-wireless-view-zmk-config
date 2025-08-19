@@ -115,7 +115,7 @@
         base {
             bindings = <
 &none       &kp Q  &kp W  &kp E   &kp R   &kp T                  &kp Y    &kp U   &kp I      &kp O    &kp P     &none
-&kp ESC     &kp A  &kp S  &kp D   &kp F   &kp G                  &kp H    &kp J   &kp K      &kp L    &kp SEMI  &kp EQUAL
+&kp ESC     &kp A  &kp S  &kp D   &kp F   &kp G                  &kp H    &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &none       &kp Z  &kp X  &kp C   &kp V   &kp B                  &kp N    &kp M   &kp COMMA  &kp DOT  &kp FSLH  &none
                       &sl NUM  &mt LCTRL SPACE  &mt LSHIFT ENTER          &skq LSHIFT  &sl SYM  &lt NAV TAB   
             >;
@@ -125,7 +125,7 @@
         syms {
             bindings = <
 &none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &none                 &none                  &none
-&kp DQT    &kp DOT      &kp PLUS       &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp COMMA             &kp BSPC               &kp SQT
+&kp DQT    &kp DOT      &kp PLUS       &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp COMMA             &kp BSPC               &kp EQUAL
 &none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp LBRC      &kp FSLH                     &kp BSLH                   &kp RBRC               &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION           &none
                                        &num_w_shift   &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &trans
             >;
