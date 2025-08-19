@@ -40,8 +40,10 @@
             bindings
                 = <&macro_param_1to1>
                 , <&macro_press &kp MACRO_PLACEHOLDER>
-                , <&macro_tap &kp LSHIFT &kp TAB>
+                , <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp TAB>
                 , <&macro_pause_for_release>
+                , <&macro_release &kp LSHIFT>
                 , <&macro_param_1to1>
                 , <&macro_release &kp MACRO_PLACEHOLDER>
                 ;
