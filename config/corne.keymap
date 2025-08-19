@@ -72,7 +72,7 @@
         num_w_shift: nums_w_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&smod LSHIFT>, <&sl nums>;
+            bindings = <&smod LSHIFT>, <&sl NUM>;
         };
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
