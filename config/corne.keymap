@@ -69,6 +69,11 @@
         };
     };
     behaviors {
+        num_w_shift: nums_w_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&smod LSHIFT>, <&sl nums>;
+        };
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -122,7 +127,7 @@
 &none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &none                 &none                  &none
 &kp DQT    &kp DOT      &kp PLUS       &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp COMMA             &kp BSPC               &kp SQT
 &none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp LBRC      &kp FSLH                     &kp BSLH                   &kp RBRC               &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION           &none
-                                        &kp ESC       &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &trans
+                                       &num_w_shift   &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &trans
             >;
             display-name = "syms";
         };
