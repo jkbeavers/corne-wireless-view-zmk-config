@@ -34,6 +34,20 @@
                 , <&macro_release &kp MACRO_PLACEHOLDER>
                 ;
         };
+        shift_h_tab: shift_h_tab {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings
+                = <&macro_param_1to1>
+                , <&macro_press &kp SHIFT>
+                , <&macro_press &kp MACRO_PLACEHOLDER>
+                , <&macro_tap &kp TAB>
+                , <&macro_pause_for_release>
+                , <&macro_param_1to1>
+                , <&macro_release &kp SHIFT>
+                , <&macro_release &kp MACRO_PLACEHOLDER>
+                ;
+        };
         caps_toggle: caps_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -125,10 +139,10 @@
 
         nav {
             bindings = <
-&none   &kp LEFT_WIN    &kp LALT      &kp C_VOL_DN    &kp C_VOL_UP     &kp C_PLAY_PAUSE   &none      &none      &none    &none        &bt BT_CLR  &none
-&none   &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp LCLK          &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT    &kp BSPC    &none
-&none   &cad            &none         &none           &hold_tab LCTRL  &hold_tab LALT     &kp PG_DN  &kp PG_UP  &none    &bt BT_PRV   &bt BT_NXT  &none
-                        &trans        &trans          &trans                              &trans     &trans    &trans
+&none   &kp LEFT_WIN          &kp LALT      &kp C_VOL_DN       &kp C_VOL_UP     &kp C_PLAY_PAUSE   &none      &none      &none    &none        &bt BT_CLR  &none
+&none   &shift_h_tab LCTRL    &none         &shift_h_tab LALT  &hold_tab LCTRL  &hold_tab LALT     &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT    &kp BSPC    &none
+&none   &cad                  &none         &none              &none            &none              &kp PG_DN  &kp PG_UP  &none    &bt BT_PRV   &bt BT_NXT  &none
+                                            &trans             &trans           &trans             &trans     &trans     &trans
             >;
             display-name = "nav";
         };
