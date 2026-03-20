@@ -124,7 +124,7 @@
 
         syms {
             bindings = <
-&none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp SQT               &kp EQUAL              &none
+&none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp SQT               &kp COLON              &none
 &none      &kp ESC      &kp PLUS       &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp EQUAL             &kp BSPC               &none
 &none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp LBRC      &kp FSLH                     &kp BSLH                   &kp RBRC               &kp LESS_THAN        &kp GREATER_THAN      &kp QUESTION           &none
                                        &num_w_shift   &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &trans
