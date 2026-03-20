@@ -72,7 +72,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp COLON>
-                , <&macro_tap &kp w>
+                , <&macro_tap &kp W>
                 , <&macro_tap &kp ENTER>
                 ;
         };
