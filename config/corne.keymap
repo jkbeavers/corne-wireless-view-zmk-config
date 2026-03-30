@@ -135,7 +135,7 @@
         syms {
             bindings = <
 &none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp DQT               &colw                &none
-&none      &kp PLUS     &kp SQT        &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp EQUAL            &kp UNDER             &kp BSP              &none
+&none      &kp PLUS     &kp SQT        &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp EQUAL            &kp UNDER             &kp BSPC             &none
 &none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp LBRC      &kp FSLH                     &kp BSLH                   &kp RBRC               &kp LT               &kp GT                &kp ESC              &none
                                        &num_w_shift   &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &trans
             >;
