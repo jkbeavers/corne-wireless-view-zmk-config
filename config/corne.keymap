@@ -148,7 +148,7 @@
 &none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp DQT               &kp SEMI             &none
 &none      &kp PLUS     &kp DOT        &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp EQUAL            &kp UNDER             &kp BSPC             &none
 &none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp FSLH      &kp LBRC                     &kp RBRC                   &kp COLON              &kp LT               &kp GT                &kp QMARK            &none
-                                       &kp DOT        &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &colw
+                                       &kp EXCL        &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &colw
             >;
             display-name = "syms";
         };
