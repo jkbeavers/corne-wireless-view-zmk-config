@@ -134,9 +134,9 @@
 
         syms {
             bindings = <
-&none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp COLON             &kp ESC                &none
-&none      &kp ESC      &kp PLUS       &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp UNDER            &kp EQUAL             &kp BSPC               &none
-&none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp LBRC      &kp FSLH                     &kp BSLH                   &kp RBRC               &kp DQT              &kp SQT               &colw                  &none
+&none      &kp EXCL     &kp AT         &kp HASH       &kp DOLLAR    &kp PERCENT                  &kp CARET                  &kp AMPERSAND          &kp ASTRK            &kp DQT               &colw                &none
+&none      &kp PLUS     &kp SQT        &kp MINUS      &kp LBKT      &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS      &kp RBKT               &kp EQUAL            &kp UNDER             &kp BSP              &none
+&none      &kp TILDE    &kp PIPE       &kp GRAVE      &kp LBRC      &kp FSLH                     &kp BSLH                   &kp RBRC               &kp LT               &kp GT                &kp ESC              &none
                                        &num_w_shift   &kp SPACE     &kp ENTER                    &caps_toggle               &kp SPACE              &trans
             >;
             display-name = "syms";
@@ -146,7 +146,7 @@
             bindings = <
 &none      &kp EXCL  &kp AT  &kp HASH    &kp DOLLAR   &kp PERCENT       &kp CARET      &kp AMPERSAND  &kp ASTRK  &trans  &trans  &none
 &none      &kp N1    &kp N2  &kp N3      &kp N4       &kp N5            &kp N6         &kp N7         &kp N8     &kp N9  &kp N0  &none
-&none      &trans    &trans  &trans      &trans       &trans            &trans         &trans         &trans     &trans  &trans  &none
+&none      &kp ESC   &trans  &trans      &trans       &trans            &trans         &trans         &trans     &trans  &trans  &none
                                  &trans  &trans       &trans            &trans         &lt OVR SPACE         &trans
             >;
             display-name = "nums";
