@@ -135,7 +135,7 @@
 
         alt {
             bindings = <
-&none       &kp Q  &kp L  &kp D   &kp C   &kp V                  &kp J    &kp Y   &kp O      &kp U    &kp ;     &none
+&none       &kp Q  &kp L  &kp D   &kp C   &kp V                  &kp J    &kp Y   &kp O      &kp U    &kp SEMI  &none
 &none       &kp N  &kp R  &kp T   &kp S   &kp G                  &kp P    &kp H   &kp A      &kp E    &kp I     &none
 &none       &kp Z  &kp X  &kp M   &kp W   &kp B                  &kp K    &kp F   &kp COMMA  &kp SQT  &kp ESC   &none
                       &sl NUM  &mt LCTRL SPACE  &mt LSHIFT ENTER          &skq LSHIFT  &sl SYM  &lt NAV TAB   
