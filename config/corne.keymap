@@ -140,7 +140,7 @@
 &none       &kp Z  &kp X  &kp M   &kp W   &kp B                  &kp K    &kp F   &kp COMMA  &kp SQT  &kp ESC   &none
                       &sl NUM  &mt LCTRL SPACE  &mt LSHIFT ENTER          &skq LSHIFT  &sl SYM  &lt NAV TAB   
             >;
-            display-name = "default";
+            display-name = "alt";
         };
 
         syms {
